@@ -20,7 +20,7 @@ python3 main.py [decompressed_pdf_file_name].txt > [out_file_name].txt
 - The implementation here is optimized for parsing pdf with CID fonts ”Type0”,  where fonts are explicitly referenced by the Page object and the ToUnicode tables are embedded within the pdf.
 
 # Helpful Resources:
-- [`pdf parsing - understanding pdfs`](https://docs.google.com/document/d/1gfxrJyJlx4NPCdnrElcwRx7ZByCKBO3RFrzmkKEUxuo/edit?usp=sharing)
+- [`pdf parsing - understanding pdfs`](https://github.com/Bodoral/pdf_parser/blob/main/docs/pdf%20parsing%20-%20understanding%20pdfs.pdf)
 - [PDFReference](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/pdf_reference_archives/PDFReference.pdf)
 - [PDF Explained](https://learning.oreilly.com/library/view/pdf-explained/9781449321581/)
 - [PDF Structure](PDFStructure.png)
