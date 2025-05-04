@@ -3,7 +3,7 @@
 Text extraction tool for client specific PDF documents. Purely written in Python3 with no external dependencies.
 
 Parsing and extracting text from PDF could be treated as 5-steps process, done respectively in the following order -after decompressing the pdf file- :
-1. traverse PDF logical tree to find all Page objects - in a way that guarantees the correct the ordering-. Then for each Page:
+1. traverse PDF logical tree to find all Page objects - in a way that guarantees the correct ordering-. Then for each Page:
 2. Retrieve the Fonts information and ToUnicode Table.
 3. Retrieve the contents.
 4. Decode the contents.
